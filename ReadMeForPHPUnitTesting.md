@@ -12,20 +12,22 @@
 
 
 #Reminder:
-
 #If .env.testing is not include you can alway copy your existing .env on you local and have it named .env.testing
-
 #See .env.testing configuration "#" is not included else it won't run
 
 #DB_CONNECTION=mysql_test
+
 #DB_TEST_HOST=127.0.0.1
+
 #DB_TEST_PORT=3306
+
 #DB_TEST_DATABASE=testing
+
 #DB_TEST_USERNAME=root
+
 #DB_TEST_PASSWORD=
 
 #Make sure that you configuration/database has the following setup "#" is not included else it won't run. 
-
 #You may follow the configuration on you locals
 
 #'mysql_test' => [
