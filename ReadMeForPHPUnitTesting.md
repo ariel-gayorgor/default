@@ -30,7 +30,7 @@ DB_TEST_PORT=3306
 
 DB_TEST_DATABASE=testing
 
-DB_TEST_USERNAME=root <strong> (may vary how you setup your local)</strong>
+DB_TEST_USERNAME=root <strong> (may vary how you setup your local) </strong>
 
 DB_TEST_PASSWORD= <strong> (may vary how you setup your local) </strong>
 
@@ -49,9 +49,9 @@ DB_TEST_PASSWORD= <strong> (may vary how you setup your local) </strong>
     
     'database' => env('DB_TEST_DATABASE', 'testing'),
     
-    'username' => env('DB_TEST_USERNAME', 'root'), <bold>(may vary how you setup your local)</bold>
+    'username' => env('DB_TEST_USERNAME', 'root'), (may vary how you setup your local)
     
-    'password' => env('DB_TEST_PASSWORD', ''), <bold>(may varyhow you setup your local)</bold>
+    'password' => env('DB_TEST_PASSWORD', ''), (may vary how you setup your local)
     
     'unix_socket' => env('DB_TEST_SOCKET', ''),
     
