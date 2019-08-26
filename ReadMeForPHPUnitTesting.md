@@ -25,7 +25,9 @@
 #DB_TEST_PASSWORD=
 
 #Make sure that you configuration/database has the following setup "#" is not included else it won't run. 
+
 #You may follow the configuration on you locals
+
 #'mysql_test' => [
 #    'driver' => 'mysql',
 #    'url' => env('DATABASE_TETS_URL'),
