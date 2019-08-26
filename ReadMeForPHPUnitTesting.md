@@ -49,9 +49,9 @@ DB_TEST_PASSWORD= <strong> (may vary how you setup your local) </strong>
     
     'database' => env('DB_TEST_DATABASE', 'testing'),
     
-    'username' => env('DB_TEST_USERNAME', 'root'), <strong> (may vary how you setup your local) </strong>
+    'username' => env('DB_TEST_USERNAME', 'root'), <bold>(may vary how you setup your local)</bold>
     
-    'password' => env('DB_TEST_PASSWORD', ''), <strong> (may varyhow you setup your local) </strong>
+    'password' => env('DB_TEST_PASSWORD', ''), <bold>(may varyhow you setup your local)</bold>
     
     'unix_socket' => env('DB_TEST_SOCKET', ''),
     
