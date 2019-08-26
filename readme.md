@@ -1,5 +1,5 @@
-<strong>PHPUNIT ReadMe</strong>
-<a href="https://github.com/ariel-gayorgor/default/blobl/master/ReadMeForPHPUnitTesting.md">PHPUnit Readme</a>
+<strong>PHPUNIT Testing Read Me Configurations</strong>
+<a href="https://github.com/ariel-gayorgor/default/blob/master/ReadMeForPHPUnitTesting.md">PHPUnit Testing Readme</a>
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
