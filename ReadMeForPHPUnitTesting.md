@@ -15,7 +15,7 @@
 #
 # If .env.testing is not include you can alway copy your existing .env on you local and have it named .env.testing
 #
-# See .env.testing configuration "#" is not included else it won't run
+# See .env.testing configuration
 
 DB_CONNECTION=mysql_test
 
@@ -30,9 +30,7 @@ DB_TEST_USERNAME=root
 DB_TEST_PASSWORD=
 
 
-# Make sure that you configuration/database has the following setup "#" is not included else it won't run. 
-
-# You may follow the configuration on you locals
+# Make sure that you configuration/database has the following setup present or you may follow the configuration on you locals as shown
 
 'mysql_test' => [
 
