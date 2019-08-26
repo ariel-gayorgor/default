@@ -20,7 +20,7 @@
 
 # Reminder:
 
-If .env.testing is missing from your files you can alway copy your existing .env on you local and have it named .env.testing and follow the configuration as shown below:
+If .env.testing is missing from your files you can alway copy your existing .env on your local and have it named .env.testing and follow the configuration as shown below:
 
 DB_CONNECTION=mysql_test
 
