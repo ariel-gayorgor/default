@@ -1,14 +1,21 @@
 # Always include the .env.testing for this is the one responsible for testing connection
 # Steps
-# 1.) php artisan config:cache
-# 2.) php aritsan migrate --env=testing
-# 3.) php artisan db:seed --env=testing
-# 4.) do the phpunit testing following the syntax
+1.) php artisan config:cache
 
-# To execute all testscripts regardless if unit or feature ./vendor/bin/phpunit 
-# To execute per file ./vendor/bin/phpunit tests/Unit/filename.php or tests/Feature/filename.php
-# To execute per file per method name ./vendor/bin/phpunit method name tests/Unit/filename.php or tests/Feature/filename.php
-# To execute per method name ./vendor/bin/phpunit method name
+2.) php aritsan migrate --env=testing
+
+3.) php artisan db:seed --env=testing
+
+4.) do the phpunit testing following the syntax
+
+# To execute all testscripts regardless if unit or feature 
+./vendor/bin/phpunit 
+# To execute per file 
+./vendor/bin/phpunit tests/Unit/filename.php or tests/Feature/filename.php
+# To execute per file per method name 
+./vendor/bin/phpunit method name tests/Unit/filename.php or tests/Feature/filename.php
+# To execute per method name 
+./vendor/bin/phpunit method name
 
 
 # Reminder:
